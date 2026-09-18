@@ -67,7 +67,7 @@ export default function App() {
 
     try {
       // 2. Enviamos los datos al servidor backend (Reemplaza la IP por la de tu PC local)
-      const response = await fetch('http://192.168.1.86:8000/api/evaluaciones', {
+      const response = await fetch('http://192.168.1.88:8000/api/evaluaciones', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload)
